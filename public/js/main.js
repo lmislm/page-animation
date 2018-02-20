@@ -1,6 +1,8 @@
 /**
  * Created by lmislm on 2018/2/17- 8:57.
  */
+import './enter';
+import 'jquery';
 
 $(document).ready(function () {
 
