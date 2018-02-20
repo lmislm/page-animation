@@ -1,0 +1,30 @@
+{
+  "name": "page-animation",
+  "version": "1.0.0",
+  "description": "main pages\r booml.cn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmislm/page-animation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmislm/page-animation/issues"
+  },
+  "homepage": "https://github.com/lmislm/page-animation#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
