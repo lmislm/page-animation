@@ -1,8 +1,9 @@
 /**
  * Created by lmislm on 2018/2/17- 8:57.
  */
+import '../css/style.css';
+import '../css/list.css'
 import './enter';
-import 'jquery';
 
 $(document).ready(function () {
 
@@ -12,13 +13,44 @@ $(document).ready(function () {
             desc: "欢迎━(*｀∀´*)ノ亻!"
         },
         {
-            title: "这里！！",
+            title: "",
             desc: [
-                ["<a href='http://baidu.com' class='letters-wrap'>菜单</a>"], " separate text".split("")
+                ["<form>\n" +
+                "    <h1 class=\"main-title\">booml.cn子域名</h1>\n" +
+                "    <div class=\"tree\">\n" +
+                "        <div>\n" +
+                "            <input id=\"n-0\" type=\"checkbox\">\n" +
+                "            <label for=\"n-0\">项目主站</label>\n" +
+                "            <div class=\"sub\">\n" +
+                "                <a class=\"sub-list\" href=\"http://112.74.94.252\">112.74.94.252</a>\n" +
+                "            </div>\n" +
+                "        </div>\n" +
+                "        <div>\n" +
+                "            <input id=\"n-1\" type=\"checkbox\">\n" +
+                "            <label for=\"n-1\">博客</label>\n" +
+                "            <div class=\"sub\">\n" +
+                "                <a class=\"sub-list\" href=\"http://blog.booml.cn/\">blog.booml.cn</a>\n" +
+                "            </div>\n" +
+                "        </div>\n" +
+                "        <div>\n" +
+                "            <input id=\"n-2\" type=\"checkbox\">\n" +
+                "            <label for=\"n-2\">Iot论坛</label>\n" +
+                "            <div class=\"sub\">\n" +
+                "                <a class=\"sub-list\" href=\"https://iot.booml.cn/\">iot.booml.cn</a>\n" +
+                "            </div>\n" +
+                "        </div>\n" +
+                "        <div>\n" +
+                "            <input id=\"n-4\" type=\"checkbox\">\n" +
+                "            <label for=\"n-4\">待续..</label>\n" +
+                "        </div>\n" +
+                "    </div>\n" +
+                "    <input type=\"reset\" value=\"折叠所有\">\n" +
+                "</form>"]
+                // , " separate text".split("")
             ]
         },
         {
-            title: "111wreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee1你好！！",
+            title: "社交页头像",
             desc: "欢迎━(*｀∀´*)ノ亻!欢迎━(*｀∀´*)ノ亻!欢迎━(*｀∀´*)ノ亻!欢迎━(*｀∀´*)ノ亻!欢迎━(*｀∀´*)ノ亻!欢迎━(*｀∀´*)ノ亻!欢迎━(*｀∀´*)ノ亻!欢迎━(*｀∀´*)ノ亻!欢迎━(*｀∀´*)ノ亻!"
         },
     ];

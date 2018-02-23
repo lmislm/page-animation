@@ -1,8 +1,6 @@
 /**
  * Created by lmislm on 2018/2/17- 21:16.
  */
-import 'jquery';
-
 var preloader = (function(){
     'use-strict';
     // Vars
