@@ -43,6 +43,13 @@ $(document).ready(function () {
                 "            <input id=\"n-4\" type=\"checkbox\">\n" +
                 "            <label for=\"n-4\">待续..</label>\n" +
                 "        </div>\n" +
+                "        <div>\n" +
+                "            <input id=\"n-2\" type=\"checkbox\">\n" +
+                "            <label for=\"n-2\">css</label>\n" +
+                "            <div class=\"sub\">\n" +
+                "                <a class=\"sub-list\" href=\"https://iot.booml.cn/\">星级评分插件</a>\n" +
+                "            </div>\n" +
+                "        </div>\n" +
                 "    </div>\n" +
                 "    <input type=\"reset\" value=\"折叠所有\">\n" +
                 "</form>"]
